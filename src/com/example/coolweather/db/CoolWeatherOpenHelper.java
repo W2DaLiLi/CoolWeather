@@ -35,8 +35,8 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 	public void onCreate(SQLiteDatabase db) {
 		// TODO Auto-generated method stub
 		db.execSQL(CREATE_PROVINCE);
-		db.equals(CREATE_CITY);
-		db.equals(CREATE_COUNTY);
+		db.execSQL(CREATE_CITY);
+		db.execSQL(CREATE_COUNTY);
 	}
 
 	@Override

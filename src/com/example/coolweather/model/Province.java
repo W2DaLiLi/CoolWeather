@@ -15,7 +15,7 @@ public class Province {
 		this.id = id;
 	}
 	
-	public String getProcinceName(){
+	public String getProvinceName(){
 		return provinceName;
 	}
 	
